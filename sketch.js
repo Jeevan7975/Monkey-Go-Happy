@@ -33,7 +33,7 @@ function setup() {
 }
 
 function draw() {
-  background("white");
+  background(265);
   ground.x = ground.width /2;
   
     if(keyDown("space")&& monkey.y >= 70) {
